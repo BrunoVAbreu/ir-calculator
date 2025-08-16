@@ -31,4 +31,3 @@ Sistema para administradores fiscais calcularem impostos de renda de clientes, c
 - **Frontend**: 
   -  HTML5
   -  CSS
-  -  JavaScript
