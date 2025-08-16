@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="ISO-8859-1">
+		<link rel="stylesheet" type="text/css" href="CssCad.css" />
+		
+		<title>Cadastro do Usuário</title>
+	</head>
+	<body>
+		<div class="container">
+
+			<header>Cadastro do Usuário</header>
+			
+			<form action="usuarioController" method="post">
+				<div class="campos">
+						
+					<div class="entrada">
+						<label for="nomeId">Nome: </label>
+						<input type="text" id="nomeId" name="nome"><br>
+					</div>
+					
+					<div class="entrada">
+						<label for="emailId">Email: </label>
+						<input type="text" id="emailId" name="email"><br>
+					</div>
+					
+					<div class="entrada">
+						<label for="telefoneId">Telefone: </label>
+						<input type="text" id="telefoneId" name="telefone"><br>
+					</div>
+					
+					<div class="entrada">
+						<label for="cpfId">CPF: </label>
+						<input type="text" id="cpfId" name="cpf"><br>
+					</div>
+					
+					<div class="entrada">
+						<label for="loginId">Login: </label>
+						<input type="text" id="loginId" name="login"><br>
+					</div>
+					
+					<div class="entrada">
+						<label for="senhaId">Senha: </label>
+						<input type="password" id="senhaId" name="senha"><br>
+					</div>
+					
+					<div class="botaoContainer">
+						<input type="submit" value="Cadastrar" name="operacao" class="botao">
+					</div>
+				
+			</form>
+			<p><a href="index.jsp">Voltar</a></p>
+			
+		</div>
+			
+	</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="ISO-8859-1">
+		<link rel="stylesheet" type="text/css" href="CssCad.css" />
+		<title>Calcular imposto</title>
+	</head>
+	<body>
+		<div class="container">
+			<header>Imposto de renda</header>
+			
+				<form action="pessoaController" method="POST">
+
+				 	<div class="campos">
+						<div class="entrada">
+							<label > Nome </label>
+							<input placeholder="Insira seu nome" type="text" name="nome" required><br>
+						</div>
+										
+						<div class="entrada">
+							<label >CPF </label>
+							<input type="text" name="CPF" placeholder="Insira seu CPF" required><br>
+						</div>
+							
+						<div class="entrada">
+							<label>Idade </label>
+							<input type="number" name="Idade" placeholder="Insira sua idade" required><br>	
+						</div>
+						
+						<div class="entrada">
+							<label > Renda bruta anual </label>
+							<input type="number" name="RendaBruta" step="0.1" placeholder="Insira sua renda bruta anual" required><br>
+						</div>
+							
+						<div class="entrada">
+							<label >Dependentes </label>
+							<input type="number" name="Dependentes" placeholder="Números de dependentes" required><br>
+						</div>
+							
+						<div class="entrada">
+							<label>Despesa com educação e saúde </label>
+							<input type="number" name="Deducao" step="0.1" placeholder="Despesa com educação e saúde anual" required><br>
+						</div>
+								
+						<div class="entrada">
+							<label> Imposto de renda anterior </label>
+							<input type="number" name="IRanterior" step="0.1" placeholder="Imposto de renda pago no ano anterior" required><br>
+						</div>
+
+						
+						<div class="botaoContainer">
+							<input type="submit" class="botao" value="Cadastrar" name="operacao">
+						</div>
+				</form>
+				<p><a href="indexPessoa.jsp" class="link">Voltar para o menu principal</a></p>
+				
+		</div>
+	</body>
+</html>
