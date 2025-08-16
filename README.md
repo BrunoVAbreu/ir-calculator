@@ -27,7 +27,7 @@ Sistema para administradores fiscais calcularem impostos de renda de clientes, c
 ## 🛠️ Tecnologias Utilizadas
 
 - **Backend**: Java
-- **Armazenamento**: MySQ
+- **Armazenamento**: MySQL
 - **Frontend**: 
   -  HTML5
   -  CSS
